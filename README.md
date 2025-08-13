@@ -17,4 +17,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0090-subsets-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0090-subsets-ii) |
+## Math
+|  |
+| ------- |
+| [0326-power-of-three](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0326-power-of-three) |
+## Recursion
+|  |
+| ------- |
+| [0326-power-of-three](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0326-power-of-three) |
 <!---LeetCode Topics End-->
