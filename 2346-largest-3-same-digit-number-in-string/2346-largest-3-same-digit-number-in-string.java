@@ -1,20 +1,34 @@
 class Solution {
     public String largestGoodInteger(String num) {
-        char maxDigit = 0;
-
-        // Sliding window of size 3
-        for (int i = 0; i <= num.length() - 3; i++) {
-            if (num.charAt(i) == num.charAt(i + 1) &&
-                num.charAt(i) == num.charAt(i + 2)) {
-                if (num.charAt(i) > maxDigit) {
-                    maxDigit = num.charAt(i);
+        char element = num.charAt(0);
+        int count = 0;
+        String finalEle = "";
+        char max = 0;
+        for(int i = 0;i<num.length();i++)
+        {
+            if(num.charAt(i) == element)
+            {
+                count++;
+                if(count == 3)
+                {
+                    if((element > max))
+                    {
+                        max = element;
+                    }
+                    
+                    
                 }
             }
+            else{
+                count = 1;
+                element = num.charAt(i);
+            }
         }
-
-        if (maxDigit == 0) {
+        if(max == 0)
+        {
             return "";
         }
-        return String.valueOf(maxDigit).repeat(3);
+      return String.valueOf(max).repeat(3);
+
     }
 }
