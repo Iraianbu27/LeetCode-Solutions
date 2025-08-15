@@ -17,14 +17,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0090-subsets-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0090-subsets-ii) |
+| [0342-power-of-four](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0342-power-of-four) |
 ## Math
 |  |
 | ------- |
 | [0326-power-of-three](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0342-power-of-four) |
 ## Recursion
 |  |
 | ------- |
 | [0326-power-of-three](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0342-power-of-four) |
 ## String
 |  |
 | ------- |
