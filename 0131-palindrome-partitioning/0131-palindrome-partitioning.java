@@ -19,6 +19,7 @@ class Solution {
         if(index == s.length())
         {
             list.add(new ArrayList<>(temp));
+            return;
         }
         for(int i = index ;i < s.length(); i++)
         {
