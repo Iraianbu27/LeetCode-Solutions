@@ -1,42 +1,33 @@
-import java.util.*;
 class Solution {
+    int n;
 
-    public static boolean palindrome(String s,int start,int end)
-    {
-        int i=start,j = end;
-        while(i<j)
-        {
-            if((s.charAt(i)) != (s.charAt(j))) {
-                return false;
-            }
-            i++;
-            j--;
-        }
-        return true;
+    public List<List<String>> partition(String s) {
+        n = s.length();
+        List<List<String>> ans = new ArrayList<>();
+        List<String> temp = new ArrayList<>();
+        solve(ans, temp, s, 0);
+        return ans;
     }
-    public static void recPar(List<List<String>> list,List<String> temp,String s,int index)
-    {
-        if(index == s.length())
-        {
-            list.add(new ArrayList<>(temp));
+
+    private void solve(List<List<String>> ans, List<String> temp, String s, int idx) {
+        if (idx == n) {
+            ans.add(new ArrayList<>(temp));
             return;
         }
-        for(int i = index ;i < s.length(); i++)
-        {
-            if(palindrome(s,index,i)){
-                temp.add(s.substring(index,i+1));
-                recPar(list,temp,s,i + 1);
-                temp.remove(temp.size()-1);
+
+        for (int i = idx; i < s.length(); i++) {
+            if (isPalindrome(s, idx, i)) {
+                temp.add(s.substring(idx, i + 1));
+                solve(ans, temp, s, i + 1);
+                temp.remove(temp.size() - 1);
             }
-
         }
-
     }
-    public List<List<String>> partition(String s) {
-        List<String> temp = new ArrayList<>();
-        // List<String>  = new ArrayList<>();
-        List<List<String>> list = new ArrayList<>();
-        recPar(  list, temp,s,0);
-        return list;
+
+    private boolean isPalindrome(String s, int l, int r) {
+        while (l < r) {
+            if (s.charAt(l++) != s.charAt(r--)) return false;
+        }
+        return true;
     }
 }
