@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0326-power-of-three](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0342-power-of-four) |
+| [0867-new-21-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0867-new-21-game) |
 | [1448-maximum-69-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1448-maximum-69-number) |
 ## Recursion
 |  |
@@ -41,8 +42,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0131-palindrome-partitioning) |
+| [0867-new-21-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0867-new-21-game) |
 ## Greedy
 |  |
 | ------- |
 | [1448-maximum-69-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1448-maximum-69-number) |
+## Sliding Window
+|  |
+| ------- |
+| [0867-new-21-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0867-new-21-game) |
+## Probability and Statistics
+|  |
+| ------- |
+| [0867-new-21-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0867-new-21-game) |
 <!---LeetCode Topics End-->
