@@ -1,25 +1,22 @@
 import java.util.*;
+
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        Set<Character> set = new HashSet<>();
-        int l = 0;
-        int max = 0;
-        int n = s.length();
-        for(int r = 0;r<n;r++)
-        {
-            if(set.contains(s.charAt(r)))
-            {
-                while(l<r && set.contains(s.charAt(r))){ //bring l next to the duplicate elemnt index
-                    set.remove(s.charAt(l));
-                    l++;
-                }
+        Map<Character,Integer> map = new HashMap<>();
+        int l = 0, max = 0;
+
+        for(int r = 0; r < s.length(); r++){   
+            if(map.containsKey(s.charAt(r))){
+                // shift l only if it's behind the duplicate
+                l = Math.max(l, map.get(s.charAt(r)) + 1);
             }
-            set.add(s.charAt(r)); //adding ele to set
-            if(max < (r-l+1)){
-                max = r-l+1;
-            }
+
+            // update the character’s latest index
+            map.put(s.charAt(r), r);
+
+            // check max window size
+            max = Math.max(max, r - l + 1);
         }
-        return max; 
-        
+        return max;
     }
 }
