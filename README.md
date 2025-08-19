@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0679-24-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0679-24-game) |
 | [0966-binary-subarrays-with-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2432-number-of-zero-filled-subarrays) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0679-24-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0679-24-game) |
 | [0867-new-21-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0867-new-21-game) |
 | [1448-maximum-69-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1448-maximum-69-number) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2432-number-of-zero-filled-subarrays) |
 ## Recursion
 |  |
 | ------- |
