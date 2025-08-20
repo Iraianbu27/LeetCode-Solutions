@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0079-word-search](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0131-palindrome-partitioning) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2346-largest-3-same-digit-number-in-string) |
 ## Dynamic Programming
 |  |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Probability and Statistics
 |  |
 | ------- |
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0966-binary-subarrays-with-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Binary Search
 |  |
 | ------- |
