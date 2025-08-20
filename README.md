@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2432-number-of-zero-filled-subarrays) |
 ## Bit Manipulation
 |  |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0131-palindrome-partitioning) |
 | [0867-new-21-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0867-new-21-game) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 ## Greedy
 |  |
 | ------- |
@@ -83,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0079-word-search) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 ## Hash Table
 |  |
 | ------- |
