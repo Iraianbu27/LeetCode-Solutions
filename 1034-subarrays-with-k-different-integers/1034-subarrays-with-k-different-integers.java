@@ -10,8 +10,8 @@ class Solution {
         // if(k == 0) return 0;
         int count = 0;
       Map<Integer,Integer> mpp = new HashMap<>();
-      int l = 0;
-      for(int r = 0;r<nums.length;r++)
+      int l = 0,r=0;
+      while(r<nums.length)
       {
         mpp.put(nums[r],mpp.getOrDefault(nums[r] ,0)+1);
         while(mpp.size() > k)
@@ -26,7 +26,7 @@ class Solution {
             
         }
         count += r-l+1;
-
+        r++;
       }
       
      return count;
