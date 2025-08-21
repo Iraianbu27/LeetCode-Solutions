@@ -13,13 +13,7 @@ class Solution {
       int l = 0;
       for(int r = 0;r<nums.length;r++)
       {
-        if(!(mpp.containsKey(nums[r])))
-        {
-            mpp.put(nums[r],1);
-        }
-        else{
-            mpp.put(nums[r] , mpp.get(nums[r]) + 1);
-        }
+        mpp.put(nums[r],mpp.getOrDefault(nums[r] ,0)+1);
         while(mpp.size() > k)
         {
            mpp.put(nums[l],mpp.get(nums[l]) -1);
