@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0131-palindrome-partitioning) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0867-new-21-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0867-new-21-game) |
 | [0966-binary-subarrays-with-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0966-binary-subarrays-with-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
