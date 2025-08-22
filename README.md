@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0090-subsets-ii) |
 | [0231-power-of-two](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0342-power-of-four) |
+| [2323-minimum-bit-flips-to-convert-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Math
 |  |
 | ------- |
