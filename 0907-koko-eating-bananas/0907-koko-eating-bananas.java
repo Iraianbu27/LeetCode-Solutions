@@ -8,7 +8,7 @@ class Solution {
         }
         
         while(left <= right) {
-            int mid = left + (right - left) / 2;
+            int mid = (left + right) / 2;
             long count = 0;  // Use long to avoid overflow!
             
             for(int pile : piles) {
