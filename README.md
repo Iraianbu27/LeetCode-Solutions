@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1628-count-submatrices-with-all-ones) |
+| [1646-kth-missing-positive-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1646-kth-missing-positive-number) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2432-number-of-zero-filled-subarrays) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1646-kth-missing-positive-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1646-kth-missing-positive-number) |
 ## Prefix Sum
 |  |
 | ------- |
