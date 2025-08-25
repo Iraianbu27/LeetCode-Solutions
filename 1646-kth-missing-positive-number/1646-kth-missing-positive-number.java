@@ -5,19 +5,30 @@ class Solution {
         int n = arr.length;
         for(int i = 0;i<n;i++)
         {
-            if(arr[i] > k)
+            if(arr[i] <= k)
             {
-                return k;
-            }
-            else{
                 k++;
             }
-        }
-        if(k != 0)
-        {
-            return k;
-        }
-        return 0;
+            else{
+                break;
+            }
+            
+        // BRUTE FORCE WITH 0MS      
+        //     if(arr[i] > k)
+        //     {
+        //         return k;
+        //     }
+        //     else{
+        //         k++;
+        //     }
+        // }
+        // if(k != 0)
+        // {
+        //     return k;
+        // }
+        // return 0;
+    }
+    return k;
     }
 }
         // int missingCount = 0;  // counts missing numbers
