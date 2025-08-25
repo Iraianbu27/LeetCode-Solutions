@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0162-find-peak-element) |
 | [0216-combination-sum-iii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0216-combination-sum-iii) |
 | [0410-split-array-largest-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0410-split-array-largest-sum) |
+| [0498-diagonal-traverse](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0498-diagonal-traverse) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0679-24-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0679-24-game) |
 | [0907-koko-eating-bananas](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0079-word-search) |
+| [0498-diagonal-traverse](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0498-diagonal-traverse) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1628-count-submatrices-with-all-ones) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
@@ -167,4 +169,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
+## Simulation
+|  |
+| ------- |
+| [0498-diagonal-traverse](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0498-diagonal-traverse) |
 <!---LeetCode Topics End-->
