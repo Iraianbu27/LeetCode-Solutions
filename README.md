@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0162-find-peak-element) |
 | [0189-rotate-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0216-combination-sum-iii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0216-combination-sum-iii) |
+| [0268-missing-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0498-diagonal-traverse](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0498-diagonal-traverse) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0342-power-of-four](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0342-power-of-four) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Math
@@ -64,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0189-rotate-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0342-power-of-four) |
 | [0679-24-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0679-24-game) |
@@ -137,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
+| [0268-missing-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0966-binary-subarrays-with-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
@@ -148,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0162-find-peak-element) |
+| [0268-missing-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0410-split-array-largest-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0907-koko-eating-bananas](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
@@ -198,4 +203,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0283-move-zeroes) |
+## Sorting
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
