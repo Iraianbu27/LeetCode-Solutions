@@ -6,13 +6,28 @@ class Solution {
         {
             if(nums[right] != 0)
             {
-                int thVar = nums[left];
                 nums[left] = nums[right];
-                nums[right] = thVar;
                 left++;
             }
             right++;
         }
+        // left++;
+        while(left<n)
+        {
+            nums[left] = 0;
+            left++;
+        }
+        // while(right < n)
+        // {
+        //     if(nums[right] != 0)
+        //     {
+        //         int thVar = nums[left];
+        //         nums[left] = nums[right];
+        //         nums[right] = thVar;
+        //         left++;
+        //     }
+        //     right++;
+        // }
         // int n =nums.length;
         // int j = 0;
         // for(int i = 0;i<n;i++)
