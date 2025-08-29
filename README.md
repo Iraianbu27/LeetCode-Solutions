@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0162-find-peak-element) |
 | [0189-rotate-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0216-combination-sum-iii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0216-combination-sum-iii) |
+| [0283-move-zeroes](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0498-diagonal-traverse](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0498-diagonal-traverse) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0540-single-element-in-a-sorted-array) |
@@ -196,4 +197,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
