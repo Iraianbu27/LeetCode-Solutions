@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0051-n-queens](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0053-maximum-subarray) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0031-next-permutation) |
 | [0189-rotate-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0283-move-zeroes) |
 ## Sorting
