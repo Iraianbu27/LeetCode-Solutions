@@ -8,7 +8,7 @@ class Solution {
             {
                 minValue = prices[i]; //finding the minimum value dynamicaly
             }
-            if(prices[i] - minValue > profit)
+            else if(prices[i] - minValue > profit)
             {
                 profit = prices[i] - minValue;
             }
