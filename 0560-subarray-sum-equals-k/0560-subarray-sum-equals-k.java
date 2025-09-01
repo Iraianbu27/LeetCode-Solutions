@@ -22,7 +22,13 @@ class Solution {
             }
           
             
-            mpp.put(prefix,mpp.getOrDefault(prefix,0) + 1);
+            if(mpp.containsKey(prefix))
+            {
+                mpp.put(prefix,mpp.get(prefix) + 1);
+            }
+            else{
+                mpp.put(prefix,1);
+            }
 
         }
         return subArr;
