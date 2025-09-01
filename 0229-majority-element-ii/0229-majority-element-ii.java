@@ -3,7 +3,7 @@ class Solution {
     public List<Integer> majorityElement(int[] nums) {
         long n = nums.length;
         long time = (n/3);
-        Map<Integer,Integer> mpp = new TreeMap<>();
+        Map<Integer,Integer> mpp = new HashMap<>();
         List<Integer> list = new ArrayList<>();
         for(int i = 0;i<nums.length;i++)
         {
