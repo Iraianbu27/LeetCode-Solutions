@@ -8,20 +8,15 @@ class Solution {
         for(int i = 0;i<nums.length;i++)
         {
             mpp.put(nums[i] , mpp.getOrDefault(nums[i],0) + 1);
-            if(mpp.get(nums[i]) > time && !(list.contains(nums[i])))
+        }
+        for(int i : mpp.keySet())
+        {
+            if(mpp.get(i) > time)
             {
-                list.add(nums[i]);
+                list.add(i);
             }
         }
-
         return list;
         
     }
 }
-        // for(int i : mpp.keySet())
-        // {
-        //     if(mpp.get(i) > time)
-        //     {
-        //         list.add(i);
-        //     }
-        // }
