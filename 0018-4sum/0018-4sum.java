@@ -15,7 +15,7 @@ class Solution {
             int k = n-1;
             while( j<k)
             {
-                long sum =  ((long)nums[i] + (long)nums[j] +(long) nums[l] +  (long)nums[k]);
+                long sum = (long)nums[i] + nums[j] + nums[l] +  nums[k];
                 long target = (long) tar;
                 if( sum < target){
                     j++;
