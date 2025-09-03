@@ -1,19 +1,32 @@
 class Solution {
     public int maxProduct(int[] nums) {
-        int largestProduct = Integer.MIN_VALUE;
+        int prefix = 1,suffix =1;
+        int product = Integer.MIN_VALUE;
+        int n = nums.length;
         for(int i = 0;i<nums.length;i++)
         {
-             int product = 1;
-            for(int j = i;j<nums.length;j++)
-            {
-               product *= nums[j];
-                largestProduct = Math.max(largestProduct,product);
-            }
-            
-        }
-        return largestProduct;
+            if(prefix == 0) prefix = 1;
+            if(suffix == 0) suffix = 1;
+            prefix = prefix * nums[i];
+            suffix = suffix * nums[n-i-1];
+            product = Math.max(product,Math.max(prefix,suffix));
+        } 
+        return product;
     }
 }
+// int largestProduct = Integer.MIN_VALUE;
+        // for(int i = 0;i<nums.length;i++)
+        // {
+        //      int product = 1;
+        //     for(int j = i;j<nums.length;j++)
+        //     {
+        //        product *= nums[j];
+        //         largestProduct = Math.max(largestProduct,product);
+        //     }
+            
+        // }
+        // return largestProduct;
+// -----------------------
 // int n = nums.length;
 //         int product = 1;
 //         int largestProduct = Integer.MIN_VALUE;
