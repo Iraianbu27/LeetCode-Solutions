@@ -7,20 +7,16 @@ class Solution {
         for(int i = 0;i<n;i++)
         {
             prefix *= nums[i];
-            suffix *= nums[n-i-1];
-            product = Math.max(product,Math.max(prefix,suffix));
+            product = Math.max(product,prefix);
             if(prefix == 0) prefix = 1;
+        }
+        for(int j = n-1;j>=0;j--)
+        {
+            suffix *= nums[j];
+            product = Math.max(product,suffix);
             if(suffix == 0) suffix = 1;
         }
         return product;
-        // for(int j = n-1;j>=0;j--)
-        // {
-            
-        //     product = Math.max(product,suffix);
-        //     if(suffix == 0) suffix = 1;
-        // }
-        // return product;
-        //--
 
 
 
