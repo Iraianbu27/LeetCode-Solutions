@@ -3,11 +3,7 @@ class Solution {
         //start intervals[i][0] end intervals[i][1]
         List<List<Integer>> list = new ArrayList<>();
         int end = 0;
-        Arrays.sort(intervals, new Comparator<int[]  >() {
-             public int compare(int[] a, int[] b) {
-                 return a[0] - b[0];
-             }
-         });
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
         for(int i = 0;i<intervals.length;i++)
         {
             if(list.isEmpty())
