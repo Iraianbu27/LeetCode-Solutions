@@ -6,19 +6,13 @@ class Solution {
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
         for(int i = 0;i<intervals.length;i++)
         {
-            if(list.isEmpty())
+            if(list.isEmpty() || (intervals[i][0] > list.get(list.size() - 1).get(1)))
             {
                 list.add(Arrays.asList(intervals[i][0],intervals[i][1]));
             }
             else{
-                if(intervals[i][0] <= list.get(list.size() - 1).get(1))
-                {
                     end = Math.max(list.get(list.size()-1).get(1),intervals[i][1]);
-                    list.get(list.size() - 1).set(1,end);
-                }
-                else{
-                    list.add(Arrays.asList(intervals[i][0] , intervals[i][1]));
-                }
+                    list.get(list.size() - 1).set(1,end);              
             }
         }
         int[][] arr = new int[list.size()][list.get(0).size()];
@@ -30,6 +24,46 @@ class Solution {
             }
         }
         return arr;
+        
+
+
+
+
+
+
+    //     List<List<Integer>> list = new ArrayList<>();
+    //     int end = 0;
+    //     Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+    //     for(int i = 0;i<intervals.length;i++)
+    //     {
+    //         // if(list.isEmpty() || intervals[i][0] <= list.get(list.size() - 1).get(1){
+    //         //     list.add(Arrays.asList(intervals[i][0] , intervals[i][1]));
+    //         // }
+
+    //         if(list.isEmpty())
+    //         {
+    //             list.add(Arrays.asList(intervals[i][0],intervals[i][1]));
+    //         }
+    //         else{
+    //             if(intervals[i][0] <= list.get(list.size() - 1).get(1))
+    //             {
+    //                 end = Math.max(list.get(list.size()-1).get(1),intervals[i][1]);
+    //                 list.get(list.size() - 1).set(1,end);
+    //             }
+    //             else{
+    //                 list.add(Arrays.asList(intervals[i][0] , intervals[i][1]));
+    //             }
+    //         }
+    //     }
+    //     int[][] arr = new int[list.size()][list.get(0).size()];
+    //     for(int i = 0;i<list.size();i++)
+    //     {
+    //         for(int j = 0;j<list.get(i).size();j++)
+    //         {
+    //             arr[i][j] = list.get(i).get(j);
+    //         }
+    //     }
+    //     return arr;
         
     }
 }
