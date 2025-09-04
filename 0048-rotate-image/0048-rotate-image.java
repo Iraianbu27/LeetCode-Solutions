@@ -15,7 +15,7 @@ class Solution {
        for(int i = 0;i<n;i++)
        {
         int l=0,r=n-1;
-        while(l<=r)
+        while(l<r)
         {
             int thVar = matrix[i][l];
             matrix[i][l] = matrix[i][r];
