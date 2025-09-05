@@ -22,14 +22,8 @@ class Solution {
     }
     public ListNode middleNode(ListNode head) {
        int count = length(head);
-       int middle = 0;
-       if(count % 2 == 0)
-       {
-              middle = (count/2) + 1;
-       }
-       else{
-              middle = count/2 + 1;          
-       }
+       int middle = (count/2) + 1;
+       
        ListNode temp = head;
        int finalCount = 0;
        while(temp != null)
