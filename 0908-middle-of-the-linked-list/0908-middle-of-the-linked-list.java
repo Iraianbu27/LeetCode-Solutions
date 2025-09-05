@@ -25,11 +25,11 @@ class Solution {
        int middle = (count/2) + 1;
        
        ListNode temp = head;
-       int finalCount = 0;
+       
        while(temp != null)
        {
-        finalCount++;
-        if(finalCount == middle)
+        middle--;
+        if(middle == 0)
         {
             break;
         }
