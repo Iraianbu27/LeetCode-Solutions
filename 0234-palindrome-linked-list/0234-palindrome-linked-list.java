@@ -9,25 +9,72 @@
  * }
  */
 class Solution {
-    public boolean isPalindrome(ListNode head) {
-        StringBuffer ds = new StringBuffer();
+    //1.find mid 
+    //2.reverse second half
+    //3.compare both
+    public static ListNode midValue(ListNode head)
+    {
+        ListNode slow = head;
+        ListNode fast = head;
+        while(fast.next != null && fast.next.next != null)
+        {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+    public static ListNode reverse(ListNode head)
+    {
         ListNode temp = head;
+        ListNode prev = null;
+        ListNode front;
         while(temp != null)
         {
-            ds.append(temp.val);
-            temp = temp.next;
+            front = temp.next;
+            temp.next = prev;
+            prev = temp;
+            temp = front;
         }
-        int l = 0,r=ds.length()-1;
-        while(l<r)
+        return prev;
+    }
+    public boolean isPalindrome(ListNode head) {
+        if(head.next == null) return true;
+       ListNode midNode = midValue(head);
+       ListNode reversedNode = reverse(midNode.next);
+      
+       ListNode firstPntr =  head; 
+       ListNode secondPntr = reversedNode;
+       while(secondPntr != null)
+       {
+        if(firstPntr.val != secondPntr.val)
         {
-            if(ds.charAt(l) != ds.charAt(r))
-            {
-                return false;
-            }
-            l++;
-            r--;
+            return false;
         }
-        return true;
-        
+        firstPntr = firstPntr.next;
+        secondPntr = secondPntr.next;
+       }
+       
+       ListNode actualNode = reverse(reversedNode);
+       return true;
+
     }
 }
+//brute force using extra space
+ // StringBuffer ds = new StringBuffer();
+        // ListNode temp = head;
+        // while(temp != null)
+        // {
+        //     ds.append(temp.val);
+        //     temp = temp.next;
+        // }
+        // int l = 0,r=ds.length()-1;
+        // while(l<r)
+        // {
+        //     if(ds.charAt(l) != ds.charAt(r))
+        //     {
+        //         return false;
+        //     }
+        //     l++;
+        //     r--;
+        // }  
+        // return true;
