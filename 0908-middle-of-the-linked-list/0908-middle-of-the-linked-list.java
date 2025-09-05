@@ -12,20 +12,18 @@ class Solution {
     public ListNode middleNode(ListNode head) {
        ListNode single = head;
        ListNode two = head;
-       ListNode temp = head;
-       while(temp != null)
+       
+       while(two != null && two.next != null)
        {
-        if(two.next == null || two.next.next == null)
-        {
-            if(two.next == null)
-            {
-                break;
-            }
-            else{
-                single =  single.next ;
-                break;
-            }
-        }
+         
+            // if(two.next == null)
+            // {
+            //     break;
+            // }
+            // else{
+            //     single =  single.next ;
+            //     break;
+            // }
         single = single.next;
         two = two.next.next;
        }
