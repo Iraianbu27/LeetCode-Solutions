@@ -20,10 +20,11 @@ class Solution {
         {
             list.add(i);
         }
-        int unPlaced = 0;
+        int unPlaced = fruits.length;
+         int count = 0;
         for(int fruit: fruits)
         {
-            int count = 0;
+           
             for(int i = 0;i<list.size()  ;i++)
             {
                 if(list.get(i) >= fruit)
@@ -33,12 +34,12 @@ class Solution {
                     break;
                 }
             }
-            if(count == 0)
-            {
-                unPlaced++;
-            }
+            // if(count == 0)
+            // {
+            //     unPlaced++;
+            // }
         }
-        return unPlaced;
+        return unPlaced - count;
 
     }
 }
