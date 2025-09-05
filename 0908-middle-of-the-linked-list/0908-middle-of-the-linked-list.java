@@ -9,32 +9,57 @@
  * }
  */
 class Solution {
-    public int length(ListNode head)
-    {
-        ListNode temp = head;
-        int count = 0;
-        while( temp != null)
-        {
-            count++;
-            temp = temp.next;
-        }
-        return count;
-    }
     public ListNode middleNode(ListNode head) {
-       int count = length(head);
-       int middle = (count/2) + 1;
-       
+       ListNode single = head;
+       ListNode two = head;
        ListNode temp = head;
-       
        while(temp != null)
        {
-        middle--;
-        if(middle == 0)
+        if(two.next == null || two.next.next == null)
         {
-            break;
+            if(two.next == null)
+            {
+                break;
+            }
+            else{
+                single =  single.next ;
+                break;
+            }
         }
-        temp = temp.next;
+        single = single.next;
+        two = two.next.next;
        }
-       return temp;
-    }
+       return single;
 }
+}
+// BRUTE FORCE using two passes(two function)
+//class Solution {
+//     public int length(ListNode head)
+//     {
+//         ListNode temp = head;
+//         int count = 0;
+//         while( temp != null)
+//         {
+//             count++;
+//             temp = temp.next;
+//         }
+//         return count;
+//     }
+//     public ListNode middleNode(ListNode head) {
+//        int count = length(head);
+//        int middle = (count/2) + 1;
+       
+//        ListNode temp = head;
+       
+//        while(temp != null)
+//        {
+//         middle--;
+//         if(middle == 0)
+//         {
+//             break;
+//         }
+//         temp = temp.next;
+//        }
+//        return temp;
+//     }
+// }
