@@ -16,62 +16,40 @@ class Solution {
        int ans = 0;
        int borrow = 0;
        int res = 0;
-       List<Integer> list = new ArrayList<>();
+     
        ListNode dummy = new ListNode(-1);
        ListNode mover = dummy;
-
-       while(temp1 != null && temp2 != null)
+       while(temp1 != null || temp2 != null)
        {
-            ans = temp1.val + temp2.val + borrow;
+            ans =  borrow;
+           
+            // list.add(res);
+            if(temp1 != null) 
+            {
+                ans += temp1.val;
+                temp1 = temp1.next;
+            }
+            if(temp2 != null)
+            {
+                ans += temp2.val;
+                temp2 = temp2.next;
+            }
             borrow = (ans / 10);
             res = ans % 10;
-            // list.add(res);
             ListNode newNode = new ListNode(res);
             mover.next = newNode;
             mover = newNode;
-            temp1 = temp1.next;
-            temp2 = temp2.next;
+            // if(temp1 != null) temp1 = temp1.next;
+            // if(temp2 != null) temp2 = temp2.next;
        }
-       if(temp1 == null && temp2 == null)
-       {
-            
-           if(borrow != 0)
-           {
-                            ListNode newNode = new ListNode(borrow);
-                mover.next = newNode;
-                mover = newNode;
-           }
-       }
-       else{
-            while(temp1 != null)
-            {
-                ans = temp1.val + borrow;
-                borrow = (ans /10);
-                res = ans % 10;
-                // list.add(res);
-                            ListNode newNode = new ListNode(res);
+        if(borrow != 0)
+        {
+            ListNode newNode = new ListNode(borrow);
             mover.next = newNode;
             mover = newNode;
-                temp1 = temp1.next;
-            }
-            while(temp2 != null)
-            {
-                ans= temp2.val + borrow;
-                borrow = (ans /10);
-                res = ans % 10;
-                // list.add(res);
-                           ListNode newNode = new ListNode(res);
-            mover.next = newNode;
-            mover = newNode;
-                temp2 = temp2.next;
-            }
-            if(borrow != 0)
-            {
-                ListNode newNode = new ListNode(borrow);
-                mover.next = newNode;
-                mover = newNode;
-            }
-       }
+        }
+ 
+       
 
     //    ListNode finalLL = new ListNode(list.get(0));
     //    ListNode mover = finalLL;
