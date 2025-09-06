@@ -17,12 +17,18 @@ class Solution {
        int borrow = 0;
        int res = 0;
        List<Integer> list = new ArrayList<>();
+       ListNode dummy = new ListNode(-1);
+       ListNode mover = dummy;
+
        while(temp1 != null && temp2 != null)
        {
             ans = temp1.val + temp2.val + borrow;
             borrow = (ans / 10);
             res = ans % 10;
-            list.add(res);
+            // list.add(res);
+            ListNode newNode = new ListNode(res);
+            mover.next = newNode;
+            mover = newNode;
             temp1 = temp1.next;
             temp2 = temp2.next;
        }
@@ -31,7 +37,9 @@ class Solution {
             
            if(borrow != 0)
            {
-            list.add(borrow);
+                            ListNode newNode = new ListNode(borrow);
+                mover.next = newNode;
+                mover = newNode;
            }
        }
        else{
@@ -40,7 +48,10 @@ class Solution {
                 ans = temp1.val + borrow;
                 borrow = (ans /10);
                 res = ans % 10;
-                list.add(res);
+                // list.add(res);
+                            ListNode newNode = new ListNode(res);
+            mover.next = newNode;
+            mover = newNode;
                 temp1 = temp1.next;
             }
             while(temp2 != null)
@@ -48,24 +59,29 @@ class Solution {
                 ans= temp2.val + borrow;
                 borrow = (ans /10);
                 res = ans % 10;
-                list.add(res);
+                // list.add(res);
+                           ListNode newNode = new ListNode(res);
+            mover.next = newNode;
+            mover = newNode;
                 temp2 = temp2.next;
             }
             if(borrow != 0)
             {
-                list.add(borrow);
+                ListNode newNode = new ListNode(borrow);
+                mover.next = newNode;
+                mover = newNode;
             }
        }
 
-       ListNode finalLL = new ListNode(list.get(0));
-       ListNode mover = finalLL;
-       for(int i = 1;i<list.size();i++)
-       {
-            ListNode temp = new ListNode(list.get(i));
-            mover.next = temp;
-            mover = temp;
-       }
-       return finalLL;
+    //    ListNode finalLL = new ListNode(list.get(0));
+    //    ListNode mover = finalLL;
+    //    for(int i = 1;i<list.size();i++)
+    //    {
+    //         ListNode temp = new ListNode(list.get(i));
+    //         mover.next = temp;
+    //         mover = temp;
+    //    }
+       return dummy.next;
     
        
     }
