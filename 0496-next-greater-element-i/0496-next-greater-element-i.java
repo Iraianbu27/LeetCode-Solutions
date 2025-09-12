@@ -3,8 +3,9 @@ class Solution {
         
         
         //traverse nums2 store the nge in mpp with that ele
-        Map<Integer,Integer> mpp = new HashMap<>();
+        
         Stack<Integer> st = new Stack<>();
+        int[] nge = new int[10001];
         int n = nums2.length;
         for(int i = n-1;i>=0;i--)
         {
@@ -14,12 +15,12 @@ class Solution {
             }
             if(st.isEmpty())
             {
-                mpp.put(nums2[i],-1);
+                nge[nums2[i]] = -1;
                 st.push(nums2[i]);
             }
             else{
-                // nge[i] = st.peek();
-                mpp.put(nums2[i],st.peek());
+                nge[nums2[i]] = st.peek();
+             
                 st.push(nums2[i]);
             }
 
@@ -27,16 +28,14 @@ class Solution {
         //2.using mpp update nge of nums1
         for(int i = 0;i<nums1.length;i++)
         {
-            if(mpp.containsKey(nums1[i]))
-            {
-                nums1[i] = mpp.get(nums1[i]);
-            }
+            nums1[i] = nge[nums1[i]];
         }
         return nums1;
          
 
     }
 }
+//APPROACH 1
   // //1.fill the nums1 arr with index of matching ele from nums2\
         // for(int i = 0;i<nums1.length;i++)
         // {
@@ -75,5 +74,39 @@ class Solution {
         // for(int i = 0;i<nums1.length;i++)
         // {
         //     nums1[i] = nge[nums1[i]];
+        // }
+        // return nums1;
+
+
+//APPROACH 2
+ // //traverse nums2 store the nge in mpp with that ele
+        // Map<Integer,Integer> mpp = new HashMap<>();
+        // Stack<Integer> st = new Stack<>();
+        // int n = nums2.length;
+        // for(int i = n-1;i>=0;i--)
+        // {
+        //     while(!st.isEmpty() && nums2[i] >= st.peek())
+        //     {
+        //         st.pop();
+        //     }
+        //     if(st.isEmpty())
+        //     {
+        //         mpp.put(nums2[i],-1);
+        //         st.push(nums2[i]);
+        //     }
+        //     else{
+        //         // nge[i] = st.peek();
+        //         mpp.put(nums2[i],st.peek());
+        //         st.push(nums2[i]);
+        //     }
+
+        // }
+        // //2.using mpp update nge of nums1
+        // for(int i = 0;i<nums1.length;i++)
+        // {
+        //     if(mpp.containsKey(nums1[i]))
+        //     {
+        //         nums1[i] = mpp.get(nums1[i]);
+        //     }
         // }
         // return nums1;
