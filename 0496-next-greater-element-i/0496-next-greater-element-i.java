@@ -13,18 +13,18 @@ class Solution {
             {
                 st.pop();
             }
-            nge[nums2[i]] = st.isEmpty() ? -1 : st.peek();
-            st.push(nums2[i]);
-            // if(st.isEmpty())
-            // {
-            //     nge[nums2[i]] = -1;
-            //     st.push(nums2[i]);
-            // }
-            // else{
-            //     nge[nums2[i]] = st.peek();
+            // nge[nums2[i]] = st.isEmpty() ? -1 : st.peek();
+            // st.push(nums2[i]);
+            if(st.isEmpty())
+            {
+                nge[nums2[i]] = -1;
+                st.push(nums2[i]);
+            }
+            else{
+                nge[nums2[i]] = st.peek();
              
-            //     st.push(nums2[i]);
-            // }
+                st.push(nums2[i]);
+            }
 
         }
         //2.using mpp update nge of nums1
