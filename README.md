@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0131-palindrome-partitioning) |
 | [0402-remove-k-digits](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
 | [1006-vowel-spellchecker](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1006-vowel-spellchecker) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [3462-vowels-game-in-a-string](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3462-vowels-game-in-a-string) |
@@ -229,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1006-vowel-spellchecker](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1006-vowel-spellchecker) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1834-minimum-number-of-people-to-teach) |
