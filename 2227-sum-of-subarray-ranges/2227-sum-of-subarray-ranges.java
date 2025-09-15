@@ -5,8 +5,8 @@ class Solution {
         for(int i = 0;i<n;i++)
         {
             long sum = 0;
-            int maxValue = Integer.MIN_VALUE;
-            int minValue = Integer.MAX_VALUE;
+            int maxValue = nums[i];
+            int minValue = nums[i];
             for(int j = i;j<n;j++)
             {
                 maxValue = Math.max(maxValue,nums[j]);
