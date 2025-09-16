@@ -9,7 +9,7 @@ class Solution {
         int n = nums2.length;
         for(int i = n-1;i>=0;i--)
         {
-            while(!st.isEmpty() && nums2[i] >= st.peek())
+            while(!st.isEmpty() && nums2[i] > st.peek())
             {
                 st.pop();
             }
