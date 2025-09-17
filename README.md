@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0216-combination-sum-iii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0216-combination-sum-iii) |
 | [0229-majority-element-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0229-majority-element-ii) |
+| [0239-sliding-window-maximum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0410-split-array-largest-sum) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
+| [0239-sliding-window-maximum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0867-new-21-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0867-new-21-game) |
 | [0966-binary-subarrays-with-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1034-subarrays-with-k-different-integers) |
@@ -384,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [1917-maximum-average-pass-ratio](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
 ## Geometry
 |  |
@@ -410,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2408-number-of-people-aware-of-a-secret) |
 ## Design
 |  |
@@ -423,4 +427,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2307-replace-non-coprime-numbers-in-array) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
