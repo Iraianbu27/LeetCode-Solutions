@@ -248,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1834-minimum-number-of-people-to-teach](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2429-design-a-food-rating-system](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2429-design-a-food-rating-system) |
 | [2689-rearranging-fruits](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2689-rearranging-fruits) |
+| [3678-design-task-manager](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3678-design-task-manager) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Binary Search
 |  |
@@ -398,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [1917-maximum-average-pass-ratio](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
 | [2429-design-a-food-rating-system](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2429-design-a-food-rating-system) |
+| [3678-design-task-manager](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3678-design-task-manager) |
 ## Geometry
 |  |
 | ------- |
@@ -411,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2429-design-a-food-rating-system](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2429-design-a-food-rating-system) |
+| [3678-design-task-manager](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3678-design-task-manager) |
 | [3790-fruits-into-baskets-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3790-fruits-into-baskets-ii) |
 ## Brainteaser
 |  |
@@ -434,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0460-lfu-cache](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0460-lfu-cache) |
 | [0937-online-stock-span](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0937-online-stock-span) |
 | [2429-design-a-food-rating-system](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2429-design-a-food-rating-system) |
+| [3678-design-task-manager](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3678-design-task-manager) |
 ## Game Theory
 |  |
 | ------- |
