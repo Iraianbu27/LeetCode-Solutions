@@ -5,7 +5,7 @@ class Solution {
         {
             sum += nums[i];
             max = Math.max(max,sum);
-            sum = (sum < 0) ? 0 : sum;
+            if(sum < 0) sum = 0;
         }
         return max;      
     }
