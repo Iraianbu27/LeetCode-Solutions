@@ -3,10 +3,14 @@
             int breakPoint = -1;
             int n = nums.length ;
             //1.find the break point
+            int val = nums[n-1];
             for(int i = n-2;i>=0;i--)
             {
-                if(nums[i] < nums[i+1])
+                if(nums[i] >= val)
                 {
+                   val = nums[i];
+                }
+                else{
                     breakPoint = i;
                     break;
                 }
