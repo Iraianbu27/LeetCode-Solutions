@@ -6,19 +6,17 @@ class Solution {
         {
             if(nums[right] != 0)
             {
-                int thVar = nums[left];
                 nums[left] = nums[right];
-                nums[right] = thVar;
                 left++;
             }
             right++;
         }
         // left++;
-        // while(left<n)
-        // {
-        //     nums[left] = 0;
-        //     left++;
-        // }
+        while(left<n)
+        {
+            nums[left] = 0;
+            left++;
+        }
         // while(right < n)
         // {
         //     if(nums[right] != 0)
