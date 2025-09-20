@@ -7,7 +7,7 @@ class Solution {
        Arrays.sort(nums);
       for(int i = 0;i<=n-3;i++)
       {
-        if(i > 0 && nums[i] == nums[i-1]) continue;
+        if(i > 0 && nums[i] == nums[i-1]) continue; // to avoid duplicates
         int j = i+1;
         int k = n-1;
         while( j<k)
@@ -20,15 +20,15 @@ class Solution {
                 k--;
             }
             else{
-                List<Integer> newList = new ArrayList<>(Arrays.asList(nums[i],nums[j],nums[k]));
-                list.add(new ArrayList<>(newList));
+                list.add(new ArrayList<>(Arrays.asList(nums[i],nums[j],nums[k]))) ;
+                // list.add(new ArrayList<>(newList));
                 j++;
                 k--;
-                while(j<k && nums[j] == nums[j-1])
+                while(j<k && nums[j] == nums[j-1]) //to  avoid duplicates
                 {
                     j++;
                 }
-                while(k>j && nums[k] == nums[k+1])
+                while(k>j && nums[k] == nums[k+1]) // to avoid duplicates
                 {
                     k--;
                 }
