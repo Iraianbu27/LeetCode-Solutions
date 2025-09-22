@@ -1,27 +1,24 @@
-public class Solution {
+import java.util.*;
+
+class Solution {
     public int maxFrequencyElements(int[] nums) {
-        Map<Integer, Integer> frequencies = new HashMap<>();
-        int maxFrequency = 0;
-        int totalFrequencies = 0;
-
-        // Find the frequency of each element
-        // Determine the maximum frequency
-        // Calculate the total frequencies of elements with the maximum frequency
+        int[] freq = new int[101];  // numbers are in range 1–100
         for (int num : nums) {
-            frequencies.put(num, frequencies.getOrDefault(num, 0) + 1);
-            int frequency = frequencies.get(num);
+            freq[num]++;
+        }
 
-            // If we discover a higher frequency element
-            // Update maxFrequency
-            // Re-set totalFrequencies to the new max frequency
-            if (frequency > maxFrequency) {
-                maxFrequency = frequency;
-                totalFrequencies = frequency;
-                // If we find an element with the max frequency, add it to the total
-            } else if (frequency == maxFrequency) {
-                totalFrequencies += frequency;
+        int maxFreq = 0;
+        for (int f : freq) {
+            maxFreq = Math.max(maxFreq, f);
+        }
+
+        int result = 0;
+        for (int f : freq) {
+            if (f == maxFreq) {
+                result += f;
             }
         }
-        return totalFrequencies;
+
+        return result;
     }
 }
