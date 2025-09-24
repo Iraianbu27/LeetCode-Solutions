@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0048-rotate-image) |
+| [0166-fraction-to-recurring-decimal](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0189-rotate-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0268-missing-number) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0131-palindrome-partitioning) |
+| [0166-fraction-to-recurring-decimal](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0402-remove-k-digits](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
 | [1006-vowel-spellchecker](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1006-vowel-spellchecker) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1264-maximum-number-of-words-you-can-type) |
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0160-intersection-of-two-linked-lists) |
+| [0166-fraction-to-recurring-decimal](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0169-majority-element](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0268-missing-number) |
