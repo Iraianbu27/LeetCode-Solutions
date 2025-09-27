@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0679-24-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0679-24-game) |
 | [0735-asteroid-collision](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0735-asteroid-collision) |
+| [0890-lemonade-change](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0455-assign-cookies) |
+| [0890-lemonade-change](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [1448-maximum-69-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1448-maximum-69-number) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1917-maximum-average-pass-ratio](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
