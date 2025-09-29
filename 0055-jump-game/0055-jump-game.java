@@ -7,8 +7,9 @@ class Solution {
             if(i > maxJump){
                 return false;  
             }
-            if(i >= n-1) break;
+            
             maxJump = Math.max(maxJump,i+nums[i]);
+            if(maxJump >= n-1) break;
 
         }
         return true;
