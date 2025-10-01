@@ -2,22 +2,37 @@ import java.util.*;
 class Solution {
     public int lengthOfLongestSubstring(String s) 
     {
-        Map<Character,Integer> map = new HashMap<>();
-        int l=0;
-        int count = 0;
-        for(int r = 0;r<s.length();r++)
-        {
-            
-            while(map.containsKey(s.charAt(r)))
-            {
-             char firstChar = s.charAt(l);
-             map.remove(firstChar);
-             l++;
+       Map<Character,Integer> mpp = new HashMap<>();
+       int length = 0;
+       int l = 0;
+       for(int r = 0;r<s.length();r++){
+            if(mpp.containsKey(s.charAt(r))){
+                if(l<= mpp.get(s.charAt(r))){
+                    l = mpp.get(s.charAt(r)) + 1;
+                }
             }
-            map.put(s.charAt(r),r);
-            count = Math.max(count,r-l+1);
-        }
-        return count;
+            mpp.put(s.charAt(r),r);
+            length = Math.max(length,r-l+1);
+       }
+       return length;
+
+
+        // Map<Character,Integer> map = new HashMap<>();
+        // int l=0;
+        // int count = 0;
+        // for(int r = 0;r<s.length();r++)
+        // {
+            
+        //     while(map.containsKey(s.charAt(r)))
+        //     {
+        //      char firstChar = s.charAt(l);
+        //      map.remove(firstChar);
+        //      l++;
+        //     }
+        //     map.put(s.charAt(r),r);
+        //     count = Math.max(count,r-l+1);
+        // }
+        // return count;
     }
 }
 
@@ -33,8 +48,8 @@ class Solution {
 //                 {
 //                     l = map.get(s.charAt(r)) + 1;
 //                 }
-//                 // map.put(s.charAt(r),r);
-    
+//                 // map.put(s.chaAt(r),r);
+     
 //             }
 
 
