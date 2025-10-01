@@ -9,7 +9,7 @@ class Solution {
            {
             z++;
            }
-             if(z>k)
+             while(z>k)
                 {
                    if(arr[l] == 0){
                     z--;
