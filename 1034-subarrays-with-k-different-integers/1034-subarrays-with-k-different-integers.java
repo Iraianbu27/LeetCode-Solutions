@@ -14,6 +14,10 @@ class Solution {
       while(r<nums.length)
       {
         mpp.put(nums[r],mpp.getOrDefault(nums[r] ,0)+1);
+        // if(!(mpp.containsKey(nums[r])))
+        // {
+        //     mpp.put(nums[r],r);
+        // }
         while(mpp.size() > k)
         {
            mpp.put(nums[l],mpp.get(nums[l]) -1);
