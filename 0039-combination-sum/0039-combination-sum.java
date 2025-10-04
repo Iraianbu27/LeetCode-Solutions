@@ -3,21 +3,15 @@ class Solution {
     public static void  recSolution(List<Integer> list, List<List<Integer>> subList,int[] arr,int target ,int i)
     {
         //baseCondition
-        // if(target < arr[i])
-        // {
-        //     return ;
-        // }
-        if(i == arr.length)
-        {
-            if(target == 0)
-            {
-                subList.add(new ArrayList<>(list));
-                // return ;
-            }       
-            return ;       
+        if(target == 0){
+            subList.add(new ArrayList<>(list));
+            return;
+        }
+        if(i >= arr.length){
+            return;
         }
 
-        if(arr[i] <= target) 
+        if(target - arr[i] >= 0) 
         {
         list.add(arr[i]);
         // target = target - arr[i];
