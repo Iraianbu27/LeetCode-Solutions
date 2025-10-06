@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0679-24-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0679-24-game) |
 | [0735-asteroid-collision](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0735-asteroid-collision) |
+| [0794-swim-in-rising-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0830-largest-triangle-area) |
 | [0890-lemonade-change](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
@@ -241,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0079-word-search](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0079-word-search) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0417-pacific-atlantic-water-flow) |
+| [0794-swim-in-rising-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0794-swim-in-rising-water) |
 ## Matrix
 |  |
 | ------- |
@@ -254,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0498-diagonal-traverse](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0498-diagonal-traverse) |
+| [0794-swim-in-rising-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1628-count-submatrices-with-all-ones) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
@@ -302,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0410-split-array-largest-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0540-single-element-in-a-sorted-array) |
+| [0794-swim-in-rising-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -442,11 +446,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
+| [0794-swim-in-rising-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0794-swim-in-rising-water) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0407-trapping-rain-water-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
+| [0794-swim-in-rising-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [1917-maximum-average-pass-ratio](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
 | [2429-design-a-food-rating-system](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2429-design-a-food-rating-system) |
 | [3678-design-task-manager](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3678-design-task-manager) |
@@ -519,4 +525,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0417-pacific-atlantic-water-flow) |
+| [0794-swim-in-rising-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0794-swim-in-rising-water) |
 <!---LeetCode Topics End-->
