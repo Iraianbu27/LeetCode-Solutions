@@ -1,73 +1,73 @@
 class Solution {
-    public static boolean valid(char[][] board,int col,int row,int n){
-         //for left attact
-         int r,c;
-
-         r=row;
-         c=col;
-         while(c>=0){
-            if(board[r][c] == 'Q') return false;
+    public boolean valid(char[][] board,int row,int col,int n){
+        int r = row;
+        int c = col;
+        //left
+        while(c>=0){
+            if(board[r][c] =='Q'){
+                return false;
+            }
             c--;
-         }
+        }
 
-         //for diagonal upward
-         r=row;
-         c=col;
-         while(r>=0 && c >=0 )
-         {
-            if(board[r][c] == 'Q') return false;
+        //diagonal upward
+        r = row;
+        c = col;
+        while(r>=0 && c>= 0){
+            if(board[r][c] == 'Q'){
+                return false;
+            }
             r--;
             c--;
-         }
+        }
 
-         //for diagonal downward
-         r=row;
-         c=col;
-         while(r<n && c>=0){
-            if(board[r][c] == 'Q') return false;
+        //diagonal downward
+        r=row;
+        c=col;
+        while(c >=0 && r<n){
+            if(board[r][c] =='Q'){
+                return false;
+            }
             r++;
             c--;
-         }
+        }
 
-         return true;
+        return true;
     }
 
-    public static void rec(char[][] board,List<List<String>> list ,int n,int col)
-    {
-        if(col == n)
-        {
-            list.add(convert(board));
-            return;
+    public List<String> convert(char[][] board,int n){
+        List<String> list = new ArrayList<>();
+        for(char[] row:board){
+            String s = new String(row);
+            list.add(s);
         }
-        for(int row = 0; row<n;row++)
-        {
-            if(valid(board,col,row,n))
-            {
-                board[row][col] = 'Q';
-                rec(board,list,n,col + 1);
-                board[row][col] = '.';
+        return list;
+    }
+
+
+    public void backtracking(char[][] board,List<List<String>> list,int row,int col,int n){
+        //basecase
+        if(col == n){
+            list.add(convert(board,n));
+            return;
+        } 
+        for(int r = 0;r<n;r++){
+            if(valid(board,r,col,n)){
+                board[r][col] ='Q';
+                backtracking(board,list,r,col+1,n);
+                board[r][col] = '.';
             }
         }
-    }
-
-    public static List<String> convert(char[][] board){
-        List<String> stringBoard = new ArrayList<>();
-        for(int i = 0;i<board.length;i++){
-            String s = new String(board[i]);
-            stringBoard.add(s);
-        }
-        return stringBoard;
     }
     public List<List<String>> solveNQueens(int n) {
         char[][] board = new char[n][n];
         for(int i = 0;i<n;i++){
-            for(int j = 0;j<n;j++)
-            {
+            for(int j = 0;j<n;j++){
                 board[i][j] = '.';
             }
         }
         List<List<String>> list = new ArrayList<>();
-        rec(board,list,n,0);
+        backtracking(board,list,0,0,n);
         return list;
     }
 }
