@@ -5,8 +5,10 @@ public class Solution {
         
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (backtrack(board, word, i, j, 0)) {
+                if(board[i][j] == word.charAt(0)){
+                    if (backtrack(board, word, i, j, 0)) {
                     return true;
+                }
                 }
             }
         }
