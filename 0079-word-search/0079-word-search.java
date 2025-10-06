@@ -28,16 +28,14 @@ public class Solution {
         }
         
         visited[i][j] = true;
-        if(
+        boolean found = 
+       
         backtrack(board,word,visited,i+1,j,index + 1) ||
         backtrack(board,word,visited,i,j-1,index + 1) ||
         backtrack(board,word,visited,i-1,j,index + 1) ||
-        backtrack(board,word,visited,i,j+1,index + 1) ){
-            visited[i][j] = false;
-            return true;
-        }
+        backtrack(board,word,visited,i,j+1,index + 1);
     visited[i][j] = false;
-    return false;
+    return found;
         
     }
     
