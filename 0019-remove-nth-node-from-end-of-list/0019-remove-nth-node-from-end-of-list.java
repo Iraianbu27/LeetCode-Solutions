@@ -19,22 +19,44 @@ class Solution {
         }
         
         
-        for(int i = 0;i<n;i++)
-        {
-            fast = fast.next;
+        // for(int i = 0;i<n;i++)
+        // {
+        //     fast = fast.next;
+        // }
+        int sum = 1;
+        while(fast != null){
+            if(fast.next == null){
+                break;
+            }
+            if(fast.next.next == null){
+                sum = sum + 1;
+                break;
+            }
+          
+            sum = sum + 2;
+            fast = fast.next.next;
         }
+        int rem = sum-n;
         //remove head
-        if(fast == null)
+        //fast == null
+        if(rem == 0)
         {
             return head.next;
         }
  
-        while(fast != null && fast.next != null)
-        {
+        // while(fast != null && fast.next != null)
+        // {
+        //     slow = slow.next;
+        //     fast = fast.next;
+        // }
+        ListNode prev = null;
+        // Node front = null;
+        for(int i = 0;i<rem;i++){
+             
+            prev = slow;
             slow = slow.next;
-            fast = fast.next;
         }
-        slow.next = slow.next.next;
+        prev.next = slow.next;
         return head;
     }
 }
