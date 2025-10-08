@@ -18,13 +18,19 @@ class Solution {
         {
             return null;
         }
-        while(fast != null && fast.next != null)
-        {
+        while(fast != null && fast.next != null){
             prev = slow;
             slow = slow.next;
             fast = fast.next.next;
         }
         prev.next = prev.next.next;
+        // while(fast != null && fast.next != null)
+        // {
+        //     prev = slow;
+        //     slow = slow.next;
+        //     fast = fast.next.next;
+        // }
+        // prev.next = prev.next.next;
         return head;
     }
 }
