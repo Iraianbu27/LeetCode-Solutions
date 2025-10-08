@@ -54,7 +54,7 @@ class Solution {
         secondPntr = secondPntr.next;
        }
        
-       ListNode actualNode = reverse(reversedNode);
+    //    ListNode actualNode = reverse(reversedNode);
        return true;
 
     }
