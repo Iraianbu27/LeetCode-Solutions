@@ -15,6 +15,7 @@ class Node {
 
 class Solution {
     public Node copyRandomList(Node head) {
+        if(head == null) return head;
         Map<Node,Node> mpp = new HashMap<>();
         Node temp = head;
         //pushing original and copy node to map
@@ -26,28 +27,11 @@ class Solution {
         temp = head;
         //building next to copy 
         while(temp != null){
-            if(temp.next != null){
-                Node copy = mpp.get(temp);
-                copy.next = mpp.get(temp.next);
-            }
-            else{
-                Node copy = mpp.get(temp);
-                copy.next = null;
-            }
-            temp = temp.next;
-        }
-
-        //building random to cpy
-        temp = head;
-        while(temp != null){
-            if(temp.random == null){
-                Node copy = mpp.get(temp);
-                copy.random = null;
-            }
-            else{
-                Node copy = mpp.get(temp);
-                copy.random = mpp.get(temp.random);
-            }
+            
+            Node copy = mpp.get(temp);
+            copy.next = mpp.get(temp.next);
+            copy.random = mpp.get(temp.random);
+            
             temp = temp.next;
         }
         temp = head;
