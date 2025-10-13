@@ -14,15 +14,17 @@ class Solution {
     }
     public List<String> removeAnagrams(String[] words) {
         List<String> list = new ArrayList<>();
-        for(int i = words.length - 1;i>0;i--){
+        list.add(words[0]);
+        for(int i = 1;i<words.length;i++){
             if(anagram(words[i-1],words[i]) == false){
-                list.add(0,words[i]);
+                list.add(words[i]);
             }
+            // else if(i)
             else{
                 continue;
             }
         }
-        list.add(0,words[0]);
+        // list.add(words[words.length-1]);
         
     return list;
     }
