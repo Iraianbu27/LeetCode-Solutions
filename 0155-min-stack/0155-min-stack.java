@@ -60,13 +60,11 @@
 class MinStack{
     Stack<Integer> og;
     Stack<Integer> min;
-    // int minimum;
-    // int capacity;
+    
     public MinStack(){
         og = new Stack<>();
         min = new Stack<>();
-        // minimum = Integer.MAX_VALUE;
-        // capacity = 0;
+        
     }
     public void push(int x){
         og.push(x);
