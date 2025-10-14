@@ -28,12 +28,12 @@ class Solution {
                 
                     
                 }
-                st.push(nums[i%n]);
+                
            }
-          else{
-             st.push(nums[i%n]);
-          }
-
+        //   else{
+        //      st.push(nums[i%n]);
+        //   }
+st.push(nums[i%n]);
         }
          
         return nge;
