@@ -18,16 +18,17 @@ class Solution {
             // st.push(nums2[i]);
            if(i < n)
            {
-                if(st.isEmpty())
-                {
-                    nge[i] = -1;
+                // if(st.isEmpty())
+                // {
+                //     nge[i] = -1;
                    
-                }
-                else{
-                    nge[i] = st.peek();
+                // }
+                // else{
+                //     nge[i] = st.peek();
                 
                     
-                }
+                // }
+                nge[i] = st.isEmpty() ? -1 : st.peek();
                 
            }
         //   else{
