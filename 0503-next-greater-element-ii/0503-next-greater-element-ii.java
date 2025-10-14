@@ -1,74 +1,74 @@
-// class Solution {
-//     public int[] nextGreaterElements(int[] nums) {
-//         int n = nums.length;
+class Solution {
+    public int[] nextGreaterElements(int[] nums) {
+        int n = nums.length;
         
-//         int[] nge = new int[n];
+        int[] nge = new int[n];
         
-//         Stack<Integer> st = new Stack<>( );
+        Stack<Integer> st = new Stack<>( );
         
         
-//          for(int i = (2*n)-1;i>=0;i--)
-//         {
-//             while(!st.isEmpty() && nums[i%n] >= st.peek())
-//             {
+         for(int i = (2*n)-1;i>=0;i--)
+        {
+            while(!st.isEmpty() && nums[i%n] >= st.peek())
+            {
                  
-//                 st.pop();
-//             }
-//             // nge[nums2[i]] = st.isEmpty() ? -1 : st.peek();
-//             // st.push(nums2[i]);
-//            if(i < n)
-//            {
-//                 if(st.isEmpty())
-//                 {
-//                     nge[i] = -1;
+                st.pop();
+            }
+            // nge[nums2[i]] = st.isEmpty() ? -1 : st.peek();
+            // st.push(nums2[i]);
+           if(i < n)
+           {
+                if(st.isEmpty())
+                {
+                    nge[i] = -1;
                    
-//                 }
-//                 else{
-//                     nge[i] = st.peek();
+                }
+                else{
+                    nge[i] = st.peek();
                 
                     
-//                 }
-//                 st.push(nums[i%n]);
-//            }
-//           else{
-//              st.push(nums[i%n]);
-//           }
+                }
+                st.push(nums[i%n]);
+           }
+          else{
+             st.push(nums[i%n]);
+          }
 
-//         }
+        }
          
-//         return nge;
-//     }
-// }
-
-
-class Solution{
-    
-public int[] nextGreaterElements(int[] nums){
-    int n = nums.length;
-    int[] nge = new int[nums.length];
-    Stack<Integer> st = new Stack<>();
-  
-    for(int i = 2*n -1;i>=0;i--){
-        while(!st.isEmpty() && st.peek()<=nums[i%n]){
-            st.pop();
-        }
-        if(i < n){
-            if(st.isEmpty()){
-                nge[i] = -1;
-                // st.push(nums[i]);
-            }
-            else{
-                nge[i] = st.peek();
-            }
-            st.push(nums[i]);
-        }
-        else{
-            st.push(nums[i%n]);
-        }
+        return nge;
     }
-    return nge;
 }
-}
+
+
+// class Solution{
+    
+// public int[] nextGreaterElements(int[] nums){
+//     int n = nums.length;
+//     int[] nge = new int[nums.length];
+//     Stack<Integer> st = new Stack<>();
+  
+//     for(int i = 2*n -1;i>=0;i--){
+//         while(!st.isEmpty() && st.peek()<=nums[i%n]){
+//             st.pop();
+//         }
+//         if(i < n){
+//             if(st.isEmpty()){
+//                 nge[i] = -1;
+//                 // st.push(nums[i]);
+//             }
+//             else{
+//                 nge[i] = st.peek();
+//             }
+//             st.push(nums[i]);
+//         }
+//         else{
+//             st.push(nums[i%n]);
+//         }
+//     }
+//     return nge;
+// }
+// }
 
 
 //BRUTE APPROACH
