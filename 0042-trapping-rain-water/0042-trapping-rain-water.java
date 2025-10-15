@@ -19,14 +19,14 @@ class Solution {
                 if(heights[l] < lMax){
                     tot += lMax - heights[l];
                 }
-                lMax = Math.max(lMax,heights[l]);
+                else lMax = Math.max(lMax,heights[l]);
                 l++;
             }
             else{
                 if(heights[r] < rMax){
                     tot += rMax - heights[r];
                 }
-                rMax = Math.max(rMax,heights[r]);
+                else rMax = Math.max(rMax,heights[r]);
                 r--;
             }
         }
