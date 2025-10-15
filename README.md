@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
+| [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3790-fruits-into-baskets-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3790-fruits-into-baskets-ii) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1646-kth-missing-positive-number) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3790-fruits-into-baskets-ii) |
 ## Prefix Sum
 |  |
