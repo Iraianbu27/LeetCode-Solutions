@@ -6,7 +6,7 @@ class Solution {
         int[] ans = new int[n];
         for(int i=n-1;i>=0;i--)
         {
-            while(!st.isEmpty() && arr[i] < arr[st.peek()])
+            while(!st.isEmpty() && arr[i] <= arr[st.peek()])
             {
                 st.pop();
             }
@@ -28,7 +28,7 @@ class Solution {
         int[] ans = new int[n];
         for(int i=0;i<n;i++)
         {
-            while(!st.isEmpty() && arr[i] <= arr[st.peek()])
+            while(!st.isEmpty() && arr[i] < arr[st.peek()])
             {
                 st.pop();
             }
