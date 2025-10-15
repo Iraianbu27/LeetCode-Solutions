@@ -8,18 +8,24 @@ class Solution {
         int n = heights.length;
         int r = n - 1;
         while(l<r){
-            if(l>0 && heights[l] < lMax){
-                tot += lMax - heights[l];
-            } 
-            else if(r< n && heights[r] < rMax){
-                tot+= rMax - heights[r];
+            // if(l>0 && heights[l] < lMax){
+            //     tot += lMax - heights[l];
+            // } 
+            // else if(r< n && heights[r] < rMax){
+            //     tot+= rMax - heights[r];
 
-            }
+            // }
             if(heights[l] <= heights[r]){
+                if(heights[l] < lMax){
+                    tot += lMax - heights[l];
+                }
                 lMax = Math.max(lMax,heights[l]);
                 l++;
             }
             else{
+                if(heights[r] < rMax){
+                    tot += rMax - heights[r];
+                }
                 rMax = Math.max(rMax,heights[r]);
                 r--;
             }
