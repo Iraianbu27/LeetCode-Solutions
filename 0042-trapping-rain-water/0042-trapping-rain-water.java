@@ -30,10 +30,10 @@ class Solution {
 
         for(int i = 0;i<n;i++)
         {
-            if(height[i] < lt[i] && height[i] < rg[i])
-            {
+        //     if(height[i] < lt[i] && height[i] < rg[i])
+        //     {
                 total += Math.min(lt[i],rg[i]) - height[i];
-            }
+            // }
         }
         return total;
     }
