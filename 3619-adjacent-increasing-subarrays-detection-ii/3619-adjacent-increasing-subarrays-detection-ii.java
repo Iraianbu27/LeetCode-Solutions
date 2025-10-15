@@ -6,7 +6,7 @@ class Solution {
         int precnt = 0;
         int ans = 0;
 
-        for (int i = 1; i < n; ++i) {
+        for (int i = 1; i < n; i++) {
             if (nums.get(i) > nums.get(i - 1)) {
                 ++cnt;
             } else {
