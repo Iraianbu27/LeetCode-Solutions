@@ -1,40 +1,23 @@
-import java.util.*;
-
 class Solution {
+
     public int maxIncreasingSubarrays(List<Integer> nums) {
         int n = nums.size();
-        if (n < 2) return 0;
+        int cnt = 1;
+        int precnt = 0;
+        int ans = 0;
 
-        int[] incEnd = new int[n];
-        int[] incStart = new int[n];
-
-        // Length of increasing subarray ending at i
-        incEnd[0] = 1;
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i < n; ++i) {
             if (nums.get(i) > nums.get(i - 1)) {
-                incEnd[i] = incEnd[i - 1] + 1;
+                ++cnt;
             } else {
-                incEnd[i] = 1;
+                precnt = cnt;
+                cnt = 1;
             }
+            ans = Math.max(ans, Math.min(precnt, cnt));
+            ans = Math.max(ans, cnt / 2);
         }
 
-        // Length of increasing subarray starting at i
-        incStart[n - 1] = 1;
-        for (int i = n - 2; i >= 0; i--) {
-            if (nums.get(i) < nums.get(i + 1)) {
-                incStart[i] = incStart[i + 1] + 1;
-            } else {
-                incStart[i] = 1;
-            }
-        }
-
-        // Compute the maximum k for adjacent subarrays
-        int maxK = 0;
-        for (int i = 0; i < n - 1; i++) {
-            maxK = Math.max(maxK, Math.min(incEnd[i], incStart[i + 1]));
-        }
-
-        return maxK;
+        return ans;
     }
 }
 
