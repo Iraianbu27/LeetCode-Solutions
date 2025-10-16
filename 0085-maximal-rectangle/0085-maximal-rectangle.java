@@ -26,23 +26,37 @@ class Solution {
         int n = matrix.length;
         int m = matrix[0].length;
         int[][] prefixSum = new int[matrix.length][matrix[0].length];
-        int col = 0;
-        while(col<m)
-        {
-            int prSum = 0;
-            for(int i = 0;i<n;i++)
-            {
-                int val =  matrix[i][col] - '0';
-                if(val == 0)
-                {
-                    prSum = 0;
+        // PREFIX SUM APPROACH TO FIND THE HEIGHT
+        // int col = 0;
+        // while(col<m)
+        // {
+        //     int prSum = 0;
+        //     for(int i = 0;i<n;i++)
+        //     {
+        //         int val =  matrix[i][col] - '0';
+        //         if(val == 0)
+        //         {
+        //             prSum = 0;
+        //         }
+        //         else{
+        //             prSum += val;
+        //         }
+        //         prefixSum[i][col] = prSum;
+        //     }
+        //     col++;
+        // }
+
+        //USING STANDARD ROW BY ROW METHOD
+        for(int row = 0;row<n;row++){
+            for(int col  = 0;col <m;col++){
+                if(row == 0 ) {
+                    prefixSum[row][col] = matrix[row][col]-'0';
                 }
                 else{
-                    prSum += val;
+                    if(matrix[row][col] == '0') prefixSum[row][col] = 0;
+                    else prefixSum[row][col] = matrix[row][col] - '0' + prefixSum[row-1][col];
                 }
-                prefixSum[i][col] = prSum;
             }
-            col++;
         }
         int area = 0;
         for(int i = 0;i<n;i++)
