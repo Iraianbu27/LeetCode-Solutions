@@ -24,9 +24,10 @@ class Solution {
             List<Integer> nodes = new ArrayList<>();
             int size = dq.size();
             for(int i = 0;i<size;i++){
-                if(dq.peek().left != null) dq.addLast(dq.peek().left);
-                if(dq.peek().right != null) dq.addLast(dq.peek().right);
-                nodes.add(dq.removeFirst().val);
+                TreeNode node = dq.removeFirst();
+                if(node.left != null) dq.addLast(node.left);
+                if(node.right != null) dq.addLast(node.right);
+                nodes.add(node.val);
             }
             list.add(nodes);
         }
