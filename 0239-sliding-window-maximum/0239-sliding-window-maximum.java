@@ -1,41 +1,55 @@
+// class Solution {
+//     public int[] maxSlidingWindow(int[] nums, int k) {
+//         //1.maintaing monotonic stack in decreasing order
+//         //2.keep track of window if exeed pop from dq
+//         Deque<Integer> dq = new ArrayDeque<>();
+//         int[] arr = new int[nums.length - k+1];
+//          int index = 0;
+//         for(int i = 0;i<nums.length;i++)
+//         {
+//             if(!dq.isEmpty() && dq.peek() == i-k){
+//                 dq.poll();//popFront
+//             }
+//             while(!dq.isEmpty() && nums[dq.peekLast()] < nums[i])
+//             {
+//                 dq.pollLast();//popLast - stack
+//             }
+//             dq.offer(i);//pushLash- stack
+           
+//             if(i >= k-1)
+//             {
+//                 arr[index++] = nums[dq.peek()];
+//             }
+            
+//         }
+//         return arr;
+
+//     }
+// }
+
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        //1.maintaing monotonic stack in decreasing order
-        //2.keep track of window if exeed pop from dq
         Deque<Integer> dq = new ArrayDeque<>();
-        int[] arr = new int[nums.length - k+1];
-         int index = 0;
-        for(int i = 0;i<nums.length;i++)
-        {
-            if(!dq.isEmpty() && dq.peek() == i-k){
-                dq.poll();//popFront
+        int[] ans = new int[nums.length -k+1];
+        int n = nums.length;
+        int ind = 0;
+
+        for(int i = 0;i<n;i++){
+            while(!dq.isEmpty() && dq.peekFirst() == i-k){
+                dq.removeFirst();
             }
-            while(!dq.isEmpty() && nums[dq.peekLast()] < nums[i])
-            {
-                dq.pollLast();//popLast - stack
+            while(!dq.isEmpty() && nums[dq.peekLast()] < nums[i]){
+                dq.removeLast();
             }
-            dq.offer(i);//pushLash- stack
-           
-            if(i >= k-1)
-            {
-                arr[index++] = nums[dq.peek()];
+            dq.addLast(i);
+            if(i >= k-1){
+                ans[ind++] = nums[dq.peekFirst()];
             }
-            
         }
-        return arr;
+        return ans;
 
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
