@@ -19,11 +19,12 @@ class Solution {
         if(root == null)return list;
         Queue<TreeNode> qu = new LinkedList<>();
         qu.offer(root);
-        int level = 0;
+        // int level = 0;
+        boolean toggle = false;
         while(!qu.isEmpty()){
             int size = qu.size();
             List<Integer> nodes = new ArrayList<>();
-            level += 1;
+            // level += 1;
 
             for(int i = 0;i<size;i++){
                 TreeNode top = qu.poll();
@@ -31,13 +32,18 @@ class Solution {
                 if(top.right != null) qu.offer(top.right);
                 nodes.add(top.val);
             }
-            if(level %2 == 0) {
+            if(toggle){
                 Collections.reverse(nodes);
-                list.add(new ArrayList<>(nodes));
             }
-            else{
-                list.add(new ArrayList<>(nodes));
-            }
+            list.add(nodes);
+            toggle = !toggle;
+            // if(level %2 == 0) {
+            //     Collections.reverse(nodes);
+            //     list.add(new ArrayList<>(nodes));
+            // }
+            // else{
+            //     list.add(new ArrayList<>(nodes));
+            // }
             
         }
         return list;
