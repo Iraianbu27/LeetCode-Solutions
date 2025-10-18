@@ -19,13 +19,11 @@
         if(q != p) return false;
         return true;
     }
-    if(q.val == p.val){
-        if(isSameTree(p.left,q.left) == true){
-        if(isSameTree(p.right,q.right) == true){
+    if((q.val == p.val) && (isSameTree(p.left,q.left) == true) && (isSameTree(p.right,q.right) == true)){
             return true;
         }
-    }
-    }
+    
+    
     return false;
     }
  }
