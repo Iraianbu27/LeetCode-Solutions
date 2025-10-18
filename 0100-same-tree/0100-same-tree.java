@@ -19,14 +19,31 @@
         if(q != p) return false;
         return true;
     }
-    if((q.val == p.val) && (isSameTree(p.left,q.left) == true) && (isSameTree(p.right,q.right) == true)){
+    if(p.val == q.val){
+        if(isSameTree(p.left,q.left) == true){
+        if(isSameTree(p.right,q.right) == true){
             return true;
         }
-    
-    
-    return false;
+    }
+
+    }
+        return false;
     }
  }
+//   class Solution{
+//     public boolean isSameTree(TreeNode p, TreeNode q) { 
+//     if(p == null || q == null){
+//         if(q != p) return false;
+//         return true;
+//     }
+//     if((q.val == p.val) && (isSameTree(p.left,q.left) == true) && (isSameTree(p.right,q.right) == true)){
+//             return true;
+//         }
+    
+    
+//     return false;
+//     }
+//  }
  //this wont work
 // class Solution {
 //     public void recFunction(TreeNode node,List<Integer> list){
