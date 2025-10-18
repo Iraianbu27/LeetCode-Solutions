@@ -7,7 +7,7 @@ class Solution {
         for(int i : nums){
             int curr = Math.min(Math.max(i-k,prev+1),i+k);
             if(curr > prev){
-                count += 1;
+                count++;
                 prev = curr;
             }
         }
