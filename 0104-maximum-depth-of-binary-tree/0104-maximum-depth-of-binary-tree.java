@@ -19,9 +19,10 @@ class Solution {
         {
             return 0;
         }
-        // recFunction(root.left,level+1);
-        // recFunction(root.right,level+1);
-        return Math.max(recFunction(root.left),recFunction(root.right)) + 1;
+        int left = recFunction(root.left);
+        int right = recFunction(root.right);
+        // return Math.max(recFunction(root.left),recFunction(root.right)) + 1;
+        return Math.max(left,right) + 1;
     }
     public int maxDepth(TreeNode root) {
         return recFunction(root);
