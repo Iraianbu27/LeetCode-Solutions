@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2429-design-a-food-rating-system](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2429-design-a-food-rating-system) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
@@ -275,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0794-swim-in-rising-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 ## Matrix
 |  |
 | ------- |
@@ -412,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
@@ -596,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0794-swim-in-rising-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 ## Bitmask
 |  |
 | ------- |
