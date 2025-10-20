@@ -3,10 +3,10 @@ class Solution {
         int count = 0;
         for(String operation : operations){
             if(operation.contains("+")){
-                count += 1;
+                count++;
             }
             else {
-                count -= 1;
+                count--;
             }
             // if(operation.equals("X++")){
             //     count += 1;
