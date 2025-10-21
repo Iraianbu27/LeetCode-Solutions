@@ -25,12 +25,12 @@ class Solution {
             
             for(int i = 0;i<size;i++){
                 TreeNode temp = qu.poll();
+
+                if(temp.left != null)qu.offer(temp.left);
+                if(temp.right !=null)qu.offer(temp.right);
                 if(i == size - 1){
                     list.add(temp.val);
                 }
-                if(temp.left != null)qu.offer(temp.left);
-                if(temp.right !=null)qu.offer(temp.right);
-
             }
         }
         return list;
