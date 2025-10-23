@@ -81,8 +81,8 @@ class Solution {
         parentMapping(root,mpp);
 
         //using dfs find the target node
-        TreeNode targetRoot = dfs(root,target);
-        return bfs(targetRoot,k,mpp);
+        // TreeNode targetRoot = dfs(root,target);
+        return bfs(target,k,mpp);
 
     }
 }
