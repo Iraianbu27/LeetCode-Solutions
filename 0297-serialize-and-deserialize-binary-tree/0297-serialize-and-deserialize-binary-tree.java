@@ -7,6 +7,8 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+
+ //implemented the both approach for general bfs using for and without for
 public class Codec {
 
     // Encodes a tree to a single string.
@@ -20,28 +22,24 @@ public class Codec {
         qu.offer(root);
         data.append(root.val).append(',');
         while(!qu.isEmpty()){
-            int size = qu.size();
-            for(int i = 0;i<size;i++){
-                TreeNode temp = qu.poll();
-                //left node's val
-                if(temp.left != null){
-                    qu.offer(temp.left);
-                    data.append(temp.left.val).append(',');
-                }
-                else{
-                    data.append('#').append(',');
-                }
-                
-                //right nodes's val
-                if(temp.right != null){
-                    qu.offer(temp.right);
-                    data.append(temp.right.val).append(',');
-                }
-                else{
-                    data.append('#').append(',');
-                }
-
+            TreeNode temp = qu.poll();
+            // data.append(temp.val).append(',');
+            if(temp.left != null){
+                qu.offer(temp.left);
+                data.append(temp.left.val).append(',');
             }
+            else{
+                data.append('#').append(',');
+            }
+            if(temp.right != null){
+                qu.offer(temp.right);
+                data.append(temp.right.val).append(',');
+            }
+            else{
+                data.append('#').append(',');
+            }
+            
+            
         }
         return data.toString();
     }
@@ -89,3 +87,54 @@ public class Codec {
 // Codec ser = new Codec();
 // Codec deser = new Codec();
 // TreeNode ans = deser.deserialize(ser.serialize(root));
+
+
+
+// public List<Integer> bfs(TreeNode root){
+//     List<Integer> list = new ArrayList<>();
+//     if(root == null)return list;
+//     Queue<TreeNode> queue = new LinkedList<>();
+//     queue.offer(root);
+    
+//     while(!queue.isEmpty()){
+//         int size = queue.size();
+//         for(int i = 0;i<size;i++){
+//             list.add(qu.peek().val);
+//             TreeNode temp = queue.poll();
+//             if(temp.left != null)qu.offer(temp.left);
+//             if(temp.right != null)qu.offer(temp.right);
+//         }
+//     }
+//     return list;
+// }
+
+// public List<Integer> bfs(TreeNode root){
+//     List<Integer> list = new ArrayList<>();
+//     if(root == null)return list;
+//     Queue<TreeNode> qu = new LinkedList<>();
+//     queue.offer(root);
+//     while(!queue.isEmpty()){
+//         TreeNode temp = qu.poll();
+//         list.add(temp.val);
+//         if(temp.left != null)qu.offer(temp.left);
+//         if(temp.right != null)qu.offer(temp.right);
+//     }
+//     return list;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
