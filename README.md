@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0735-asteroid-collision) |
 | [0794-swim-in-rising-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0830-largest-triangle-area) |
+| [0876-hand-of-straights](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0455-assign-cookies) |
+| [0876-hand-of-straights](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [1448-maximum-69-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1448-maximum-69-number) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1834-minimum-number-of-people-to-teach) |
@@ -341,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0460-lfu-cache](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0876-hand-of-straights](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0966-binary-subarrays-with-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1006-vowel-spellchecker](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1006-vowel-spellchecker) |
@@ -527,6 +530,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0435-non-overlapping-intervals](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0455-assign-cookies) |
+| [0876-hand-of-straights](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0876-hand-of-straights) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
