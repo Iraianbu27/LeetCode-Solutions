@@ -24,7 +24,7 @@ public boolean isNStraightHand(int[] arr,int groupSize){
                 List<Integer> tempGroup = new ArrayList<>();
                 tempGroup.add(currKey);
                 int count = 1;
-                for(int k = 0;k<groupSize-1;k++){
+                for(int k = 0;k<groupSize-1;k++){ //O(groupSize)
                     if(mpp.containsKey(currKey+1)){
                         count++;
                         tempGroup.add(currKey+1);
@@ -56,3 +56,5 @@ public boolean isNStraightHand(int[] arr,int groupSize){
 
     }
 }
+//tc - O(n) + O(n log n) + O(n) +O(groupSize) ~ O(n log n)
+//sc - O(n) 
