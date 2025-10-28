@@ -1,18 +1,13 @@
 class Solution {
     public int minDays(int[] bloomDay, int m, int k) {
-        int maxBloom = 0;
-        int minBloom =  Integer.MAX_VALUE;
+        int low = bloomDay[0];
+        int high =  bloomDay[0];
         if((long)(m*k) > (bloomDay.length)) return -1;
         for(int i:bloomDay)
         {
-            maxBloom = Math.max(maxBloom,i);
-            minBloom = Math.min(minBloom,i);
-
-        }
-        // if((m*k) > bloomDay.length) return -1;
-       
- 
-        int low =minBloom,high = maxBloom;
+            if(i>high)high = i;
+            if(i<low)low = i;
+        } 
         int mid = 0;
         int result = -1;
         while(low<=high)
