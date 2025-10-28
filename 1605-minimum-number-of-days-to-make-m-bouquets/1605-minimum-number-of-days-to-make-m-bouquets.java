@@ -18,7 +18,7 @@ class Solution {
         while(low<=high)
         {
             mid = (high+low)/2;
-            if(func(bloomDay,maxBloom,minBloom,mid,m,k)){
+            if(func(bloomDay ,mid,m,k)){
                 result = mid;
                 high = mid -1;
             }
@@ -29,7 +29,7 @@ class Solution {
         }
         return result;
     }
-    public boolean func(int[] bloomDay,int maxBloom,int minBloom,int i,int m,int k)
+    public boolean func(int[] bloomDay, int i,int m,int k)
     {
             int tot =0;
             int countFlower = 0;
@@ -42,12 +42,14 @@ class Solution {
                 else{
                     tot = tot + (int)(countFlower/k);
                     countFlower = 0;
+                   
+
                 }
                 
             }
             tot = tot + (int)(countFlower/k);
             if(tot >= m)
-            {
+            { 
                 return true;
             }
         
