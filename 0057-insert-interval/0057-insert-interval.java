@@ -13,7 +13,8 @@ class Solution {
         }
 
         //adding overlapping interval with newInterval to list
-        //we compare
+        //we compare start of interval and end of new interval to get the overlapping
+        //in general we only compare end of interval and start of newInterval to check for overlapping since we already finded that before we know for sure the coming interval is overlap with the newInterval so so check how many interval's starting is lesser that the newIntervals ending so we find out all the overlapping intervals
         while(i<n && intervals[i][0] <= newInterval[1]){
             newInterval[0] = Math.min(intervals[i][0],newInterval[0]);
             newInterval[1] = Math.max(intervals[i][1],newInterval[1]);
@@ -53,9 +54,6 @@ class Solution {
     //     //merging overlapping intervals
         
     //     for(int i = 0;i<list.size();i++){
-    //         // if(interval.length != 0){
-    //         //     int end = interval.get(interval.size() - 1)[1];
-    //         // }
     //         // int start = list.get(i).[0];
     //         if(interval.size() == 0 || list.get(i)[0] > interval.get(interval.size() - 1)[1]){
     //             interval.add(list.get(i));
