@@ -186,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0025-reverse-nodes-in-k-group) |
+| [0044-wildcard-matching](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0044-wildcard-matching) |
 | [0206-reverse-linked-list](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0022-generate-parentheses) |
+| [0044-wildcard-matching](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0044-wildcard-matching) |
 | [0076-minimum-window-substring](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0131-palindrome-partitioning) |
@@ -222,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0070-climbing-stairs) |
@@ -249,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0011-container-with-most-water) |
+| [0044-wildcard-matching](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0044-wildcard-matching) |
 | [0055-jump-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0135-candy) |
 | [0402-remove-k-digits](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
