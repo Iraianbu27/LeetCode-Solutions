@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2429-design-a-food-rating-system](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2429-design-a-food-rating-system) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2432-number-of-zero-filled-subarrays) |
+| [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2625-increment-submatrices-by-one](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2625-increment-submatrices-by-one) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2689-rearranging-fruits](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2689-rearranging-fruits) |
@@ -249,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1628-count-submatrices-with-all-ones) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
@@ -335,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1628-count-submatrices-with-all-ones) |
+| [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2625-increment-submatrices-by-one](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2625-increment-submatrices-by-one) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
