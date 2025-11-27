@@ -1,20 +1,22 @@
 class Solution {
-
     public long maxSubarraySum(int[] nums, int k) {
         int n = nums.length;
-        long prefixSum = 0;
-        long maxSum = Long.MIN_VALUE;
-        long[] kSum = new long[k];
-        for (int i = 0; i < k; i++) {
-            kSum[i] = Long.MAX_VALUE / 2;
+        // long maxSum = Long.MIN_VALUE;
+        long[] prefixSum = new long[n+1];
+        for(int i = 0;i<n;i++){
+            prefixSum[i+1]=nums[i]+prefixSum[i];
         }
-        kSum[k - 1] = 0;
-        for (int i = 0; i < n; i++) {
-            prefixSum += nums[i];
-            maxSum = Math.max(maxSum, prefixSum - kSum[i % k]);
-            kSum[i % k] = Math.min(kSum[i % k], prefixSum);
+        long[] minPrefix = new long[k];
+        Arrays.fill(minPrefix,Long.MAX_VALUE/2);
+        long maxSum = Long.MIN_VALUE;
+        for(int j = 0;j<=n;j++){
+            int mod = j%k;
+            maxSum = Math.max(maxSum,prefixSum[j]-minPrefix[mod]);
+            minPrefix[mod] = Math.min(minPrefix[mod],prefixSum[j]);
+            
         }
         return maxSum;
+
     }
 }
 //// Brute force
