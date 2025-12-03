@@ -23,9 +23,9 @@
 // }
 
 class Solution {
-    public void moveZeroes(int[] nums) {
-        int n = nums.length;
+    public void helperFunction(int[] nums){
         int i = 0;
+        int n = nums.length;
         while(i<n && nums[i] != 0){
             i++;
         }
@@ -40,6 +40,31 @@ class Solution {
             j++;
 
         }
+    }
+    public void helperFunction2(int[] nums){
+        int n = nums.length;
+        int i = 0,j=0;
+        while(j<n){
+            if(nums[j] != 0){
+                int thVar = nums[i];
+                nums[i] = nums[j];
+                nums[j] = thVar;
+                i++;
+                j++;
+            }
+            else{
+                j++;
+            }
+        }
+        while(i<n){
+            nums[i] = 0;
+            i++;
+        }
+    }
+    public void moveZeroes(int[] nums) {
+        int n = nums.length;
+        // helperFunction(nums);
+        helperFunction2(nums);
 
     }
 }
