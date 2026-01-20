@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0498-diagonal-traverse) |
 | [0503-next-greater-element-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0540-single-element-in-a-sorted-array) |
+| [0542-01-matrix](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0679-24-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0679-24-game) |
 | [0735-asteroid-collision](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0735-asteroid-collision) |
@@ -249,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0435-non-overlapping-intervals) |
+| [0542-01-matrix](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0542-01-matrix) |
 | [0867-new-21-game](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0867-new-21-game) |
 | [0943-sum-of-subarray-minimums](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1111-minimum-score-triangulation-of-polygon) |
@@ -342,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0498-diagonal-traverse](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0498-diagonal-traverse) |
+| [0542-01-matrix](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0542-01-matrix) |
 | [0794-swim-in-rising-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1628-count-submatrices-with-all-ones) |
@@ -691,6 +694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0407-trapping-rain-water-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0417-pacific-atlantic-water-flow) |
+| [0542-01-matrix](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0542-01-matrix) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0794-swim-in-rising-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
