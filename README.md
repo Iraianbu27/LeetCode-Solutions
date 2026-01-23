@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
@@ -396,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3242-count-elements-with-maximum-frequency](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3678-design-task-manager](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3678-design-task-manager) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -509,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3790-fruits-into-baskets-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
@@ -538,6 +541,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0460-lfu-cache](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0460-lfu-cache) |
 | [0908-middle-of-the-linked-list](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -608,6 +612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0794-swim-in-rising-water) |
 | [1917-maximum-average-pass-ratio](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/1917-maximum-average-pass-ratio) |
 | [2429-design-a-food-rating-system](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2429-design-a-food-rating-system) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3678-design-task-manager](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3678-design-task-manager) |
 ## Geometry
@@ -624,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2429-design-a-food-rating-system](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/2429-design-a-food-rating-system) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3678-design-task-manager](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3678-design-task-manager) |
 | [3790-fruits-into-baskets-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3790-fruits-into-baskets-ii) |
 ## Brainteaser
@@ -676,6 +682,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/0460-lfu-cache) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Iraianbu27/LeetCode-Solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 ## Combinatorics
 |  |
 | ------- |
